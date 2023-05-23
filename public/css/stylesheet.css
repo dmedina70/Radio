@@ -1,0 +1,252 @@
+
+.aupiciadores {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: white;
+}
+.aupiciador {
+  width: 70%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  margin-bottom: 5%;
+  background-color: 	black;
+  border: 3px solid #171717;
+}
+
+
+#body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.contact{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-globe {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  margin-bottom: 25%;
+}
+
+
+
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    width: 100%;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+footer {
+  background-color: #444444;
+}
+
+.foot {
+  background-color: #171717 ;
+}
+
+#globe {
+  position: relative;
+  left: 0;
+}
+
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  h1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+.map{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.my-4 {
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+.mb-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#MusesRadioPlayer-HTML5-player-0{
+  margin-left: 25%;
+  height: 60;
+}
+
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.radio-title {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.radio-container {
+  margin: 20% auto 25% auto;
+
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: white!important;
+}
+
+#title {
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+ul {
+  width: 200px;
+  height: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner{
+  position: relative;
+  margin-bottom: 50px;
+  width: 85%;
+  left: 10%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.container-fluid{
+  flex-wrap: initial !important;;
+}
