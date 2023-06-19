@@ -250,3 +250,27 @@ ul {
 .container-fluid{
   flex-wrap: initial !important;;
 }
+
+.boton_tv {
+  text-align: center;
+  margin-top: 50px; /* Optional: Add margin for vertical alignment */
+  margin-bottom: 50px;
+
+}
+
+.btn-tv {
+  display: inline-block;
+  border: none;
+  background-color: violet;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.btn-tv:hover {
+  background-color: darkviolet;
+  cursor: pointer;
+}
