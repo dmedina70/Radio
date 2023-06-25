@@ -56,10 +56,9 @@
 
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <% const img_source = ["img/daniel1.jpg", "img/daniel2.jpg", "img/jan.jpg", 'img/jan2.jpg', 'img/gaby.jpg', 'img/daniel3.jpg', 'img/iris.jpg', "img/annie programa.jpg"]; %>
 
-    <% for (let i = 0; i < img_source.length; i++) { %>
-      <% const imgSrc = img_source[i]; %>
+    <% for (let i = 0; i < imgFiles2.length; i++) { %>
+      <% const imgSrc = "programas/" + imgFiles2[i]; %>
       <% const isActive = i === 0 ? ' active' : ''; %>
 
       <div class="carousel-item<%= isActive %>">
@@ -70,15 +69,12 @@
   </div>
 
   <div class="aupiciadores">
-    <h1>Auspiciadores</h1>
-    <hr>
-    <% const img_aupiciador = ["img/Rose.jpg", "img/php.jpg", "img/aluminum.jpg", "img/victor.jpg"]; %>
-
-<% for (let i = 0; i < img_aupiciador.length; i++) { %>
-  <% const imgap = img_aupiciador[i]; %>
-  <img class="aupiciador" src="<%= imgap %>" alt="imagen de auspiciador">
-<% } %>
-
-  </div>
+  <h1>Auspiciadores</h1>
+  <hr>
+  <% for (let i = 0; i < imgFiles.length; i++) { %>
+    <% const imgap = 'auspiciadores/' + imgFiles[i]; %>
+    <img class="aupiciador" src="<%= imgap %>" alt="imagen de auspiciador">
+  <% } %>
+</div>
 
 <%- include("partials/footer"); -%>

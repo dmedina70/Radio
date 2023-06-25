@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admin Panel</title>
+     <link rel="stylesheet" href="/css/stylesheet.css">
+  </head>
+  <body>
+    <h1 id="folder"><%=folder%></h1>
+    <% for (let i = 0; i < imgFiles.length; i++) { %>
+      <% const imgSrc = imgFiles[i]; %>
+      <li><%= imgSrc %> <img class ="admin_programas" src="<%= "/" + folder + "/" + imgSrc %>" alt=""></li>
+    <% } %>
+
+    <form class="" action="/admin/upload" method="post" enctype="multipart/form-data">
+     <label for="fname">Cargar Imagenes</label>
+     <input  type= "file" id="image" name="image" required />
+     <input type="submit">
+    </form>
+
+
+    <form class="" action="/admin/delete" method="post">
+      <label for="fname">Escoger foto para borrar:</label>
+      <select id="imageToDelete" name="filename">
+        <% for (let i = 0; i < imgFiles.length; i++) { %>
+          <% const imgSrc = imgFiles[i]; %>
+          <option><%= imgSrc %> </option>
+        <% } %>
+        <input type="submit">
+      </select>
+    </form>
+    <script src="/app.js/"></script>
+  </body>
+</html>

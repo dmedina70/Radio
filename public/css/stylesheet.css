@@ -274,3 +274,12 @@ ul {
   background-color: darkviolet;
   cursor: pointer;
 }
+
+
+.admin_programas{
+    width: 10%;
+    padding-bottom: 2%;
+    display: block;
+    margin-left: 5%;
+    padding-top: 2%;
+}
