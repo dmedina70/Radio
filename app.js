@@ -102,9 +102,6 @@ app.post('/admin/delete', (req, res) => {
 });
 
 
-app.get("/radio",function(req,res){
-  res.render("radio",{imgFiles,imgFiles2})
-})
 
 app.get("/contact",function(req,res){
   res.render("contact")
